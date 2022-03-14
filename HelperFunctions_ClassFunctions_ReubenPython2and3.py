@@ -6,7 +6,7 @@ reuben.brewer@gmail.com
 www.reubotics.com
 
 Apache 2 License
-Software Revision D, 03/01/2022
+Software Revision E, 03/13/2022
 
 Verified working on: Python 2.7, 3.8 for Windows 8.1, 10 64-bit and Raspberry Pi Buster (no Mac testing yet).
 '''
@@ -22,7 +22,6 @@ import math
 import traceback
 import socket, select, struct
 import string
-import keyboard #"sudo pip install keyboard"
 import subprocess #for beep command line call
 ###############
 
